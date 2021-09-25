@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \" test .... \"",
     "prepare": "husky install",
-    "lint": "npx lint-staged"
+    "lint": "npx lint-staged",
+    "precommit": "echo \"---------\""
   },
   "repository": {
     "type": "git",
