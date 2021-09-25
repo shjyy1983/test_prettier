@@ -1,2 +1,2 @@
 var a = "xxx";
-var b="bbb322"
+var b="bbb3222"
