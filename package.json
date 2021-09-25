@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \" test .... \""
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,17 @@
   "homepage": "https://github.com/shjyy1983/test_prettier#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"husky hooks\""
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write"
+    "*.{js,jsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{html,css,less,ejs}": [
+      "prettier --write",
+      "git add"
     ]
   },
   "devDependencies": {
