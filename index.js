@@ -1,2 +1,2 @@
 var a = "xxx";
-var b="bbb3222xx222ddd222"
+var b="cccc"

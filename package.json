@@ -18,7 +18,7 @@
   "homepage": "https://github.com/shjyy1983/test_prettier#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "echo '------------' && npx lint-staged"
+      "pre-commit": "echo '------------'"
     }
   },
   "lint-staged": {
