@@ -1,2 +1,3 @@
-var a = "xxx";
-var b="3333322"
+var a = 'xxx';
+var b = '3333322';
+console.log(b);
