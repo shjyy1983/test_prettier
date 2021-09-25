@@ -1,3 +1,3 @@
 var a = 'xxx';
-var b = '3333322';
+var b = 'bb';
 console.log(b);
