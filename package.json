@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \" test .... \"",
     "prepare": "husky install",
-    "lint": "npx lint-staged",
-    "precommit": "echo \"---------\""
+    "lint": "npx lint-staged"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,7 @@
   "homepage": "https://github.com/shjyy1983/test_prettier#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
+      "pre-commit": "echo \"--------------\""
     }
   },
   "lint-staged": {
