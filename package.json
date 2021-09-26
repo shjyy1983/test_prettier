@@ -19,6 +19,11 @@
     "url": "https://github.com/shjyy1983/test_prettier/issues"
   },
   "homepage": "https://github.com/shjyy1983/test_prettier#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"xxxxxxxx\""
+    }
+  },
   "lint-staged": {
     "*.{js,jsx}": [
       "prettier --write",
@@ -32,7 +37,7 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "husky": "7.0.2",
+    "husky": "5.2.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1"
   }
