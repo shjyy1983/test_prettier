@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "npx lint-staged"
+    "lint": "lint-staged"
   },
   "repository": {
     "type": "git",
