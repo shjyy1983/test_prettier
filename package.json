@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "lint-staged"
+    "lint": "echo \"-------\""
   },
   "repository": {
     "type": "git",
