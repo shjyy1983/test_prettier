@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "echo \"-------\""
+    "postinstall": "husky install",
+    "lint": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,20 @@
     "url": "https://github.com/shjyy1983/test_prettier/issues"
   },
   "homepage": "https://github.com/shjyy1983/test_prettier#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"--------------\""
+    }
+  },
   "lint-staged": {
     "*.{js,jsx}": [
-      "prettier --write"
+      "prettier --write",
+      "eslint --fix",
+      "git add"
     ],
     "*.{html,css,less,ejs}": [
-      "prettier --write"
+      "prettier --write",
+      "git add"
     ]
   },
   "devDependencies": {
